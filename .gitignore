@@ -1,0 +1,17 @@
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+bin/
+obj/
+artifacts/
+TestResults/
+
+# Local generated exports
+out/
+export/
+*.tmp
+
+# Local environment overrides
+*.local.json
+.env
