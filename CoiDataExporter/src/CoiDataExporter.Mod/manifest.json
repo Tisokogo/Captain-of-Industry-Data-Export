@@ -1,0 +1,12 @@
+{
+  "id": "coi-data-exporter",
+  "version": "0.1.0",
+  "display_name": "COI Data Exporter",
+  "description_short": "Exports products, recipes and buildings from Captain of Industry.",
+  "description_long": "Exports a versioned JSON snapshot from the runtime prototype database. The external CLI can validate the snapshot and create CSV files.",
+  "authors": ["Local project"],
+  "primary_dlls": ["CoiDataExporter.Mod.dll"],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}
